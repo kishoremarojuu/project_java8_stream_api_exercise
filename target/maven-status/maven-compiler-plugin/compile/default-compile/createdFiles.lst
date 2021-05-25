@@ -1,0 +1,11 @@
+space\gavinklfong\demo\streamapi\models\Product.class
+space\gavinklfong\demo\streamapi\models\Customer.class
+space\gavinklfong\demo\streamapi\repos\CustomerRepo.class
+space\gavinklfong\demo\streamapi\SampleController.class
+space\gavinklfong\demo\streamapi\models\Order.class
+space\gavinklfong\demo\streamapi\models\Product$ProductBuilder.class
+space\gavinklfong\demo\streamapi\models\Order$OrderBuilder.class
+space\gavinklfong\demo\streamapi\models\Customer$CustomerBuilder.class
+space\gavinklfong\demo\streamapi\repos\ProductRepo.class
+space\gavinklfong\demo\streamapi\DemoApplication.class
+space\gavinklfong\demo\streamapi\repos\OrderRepo.class

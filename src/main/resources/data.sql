@@ -8,6 +8,7 @@ INSERT INTO customer (id, name, tier) VALUES (7, 'Fae Heidenreich', 1);
 INSERT INTO customer (id, name, tier) VALUES (8, 'Dino Will', 2);
 INSERT INTO customer (id, name, tier) VALUES (9, 'Eloy Stroman', 1);
 INSERT INTO customer (id, name, tier) VALUES (10, 'Brisa O''Connell', 1);
+INSERT INTO customer (id, name, tier) VALUES (11, 'Kishore Maroju', 1);
 INSERT INTO product (id, name, category, price) VALUES (1, 'omnis quod consequatur', 'Games', 184.83);
 INSERT INTO product (id, name, category, price) VALUES (2, 'vel libero suscipit', 'Toys', 12.66);
 INSERT INTO product (id, name, category, price) VALUES (3, 'non nemo iure', 'Grocery', 498.02);
