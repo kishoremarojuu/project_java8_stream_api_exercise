@@ -1,4 +1,4 @@
-package project1_java8_stream_api;
+package java8.certification.org;
 
 import java.time.LocalDate;
 import java.util.Comparator;
@@ -145,7 +145,6 @@ public class StreamApiTest {
 
     }
 
-
     //
     // Get the 3 most recent placed order
     //
@@ -284,34 +283,6 @@ public class StreamApiTest {
         log.info(result.toString());
     }
 
-    @Test
-	public void testing(){
-		Map<Order, Double> collect = orderRepo.findAll()
-				.stream()
-				.collect(Collectors.toMap(
-						Function.identity(), order -> order.getProducts().stream().mapToDouble(p -> p.getPrice()).sum()
-				));
-
-	}
-
-	@Test
-	public void testing1(){
-		List<String> strings = List.of("a", "bb", "cc", "ddd");
-
-		Map<Integer, Long> result = strings.stream()
-				.collect(Collectors.groupingBy(String::length, Collectors.counting()));
-
-		System.out.println(result); // {1=1, 2=2, 3=1}
-	}
-	@Test
-	public  void testintg(){
-    	productRepo.findAll()
-				.stream()
-				.collect(Collectors.toMap(
-						product -> product.getName(),
-						product -> product.getCategory()
-				));
-	}
     //
     // Obtain a data map with order and its total price
     //
